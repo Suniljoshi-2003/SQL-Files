@@ -1,0 +1,48 @@
+#STRING FUNCTIONS
+-- UPPER()
+-- LOWER()
+-- REVERSE()
+-- LEN()
+-- REPLACE()
+-- CONCAT()
+
+#Commands in sql:-
+-- 1. DDL(Data defination language)--Create,Drop,Alter,Truncate
+-- 2. DQl(Data Query language)--Select
+-- 3. DML(Data Manipulation langauge)--Insert,Update,Delete,Call
+-- 4. DCL(Data Control Language)--Grant,Revoke
+-- 5. TCL(Transaction Control Language)--Commit,Rollback,Savepoint
+
+#Constraints:- 
+- 1. not null
+- 2. unique
+- 3. auto_increament
+- 4. check
+- 5. default
+- 6. primary key
+- 7. foreign key
+
+-- where clause
+-- like operator
+-- regex
+-- groupby
+-- orderby
+-- limit
+-- offset
+
+#windows function:-
+- 1, row_number
+- 2. Rank
+- 3. Dense_rank
+#joins :-
+* inner join
+* outer join
+* left join
+* right join
+* self join
+
+-- nested query,
+-- sub query
+-- between,in
+-- store procedure
+
