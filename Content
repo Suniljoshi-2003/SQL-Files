@@ -26,6 +26,30 @@ SQL- programing language used for run database.
         4.2 ROLLBACK - undo changes that are not committed and end  transaction.
 */
 
+-- datatypes in sql;
+# Thier are too many datatypes in mysql --> 
+-- DATATYPE                     DESCRIPTION                                        USAGE
+-- CHAR.         string(0-255), can store characters of fixed length                 CHAR(50)
+-- VARCHAR       string(0-255), can store characters up to given length              VARCHAR(50)
+-- INT           integer(-2,147,483,648 to 2, 147,483,647 ) -- 4 bytes               INT
+-- TINYINT        integer(-128 to 127)         #0 255                                TINYINT
+-- BIGINT        integer(-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 )    BIGINT
+--   FLOAT       Decimal number - with precision to 23 digits                         FLOAT
+-- BOOLEAN       Boolean values 0 or 1                                                BOOLEAN
+-- DATE          date in format of YYYY-MM-DD ranging from 1000-01-01 to 9999-12-31    DATE
+-- YEAR          year in 4 digits format ranging from 1901 to 2155                     YEAR
+
+
+-- char, varchar 0 to 255 bytes
+-- 1 bytes == 1 alphabets
+-- name char (40)     --  stste  varchar(40)
+--  python              ---  Delhi
+-- char used full bytes   &   -- varchar used only fill bytes used or relesd.
+   
+-- int ---> 9 digits  ---> 4 bytes (byedefeaut)
+-- bigint ---> 10 digits
+-- tinyint ---> -127 to 127
+-- float ---> 
 
 #STRING FUNCTIONS
 -- UPPER()
