@@ -1,3 +1,32 @@
+sql :-  STRUCTURED QUERY LANGUAGE 
+SQL- programing language used for run database.
+    CRUD:-
+        C- CREATE
+        R-RETRIVE
+        U-UPDATE
+        D-DELETE
+
+-- Types of sql  CAMMANDS:-
+    there are four type of cammands in sql.
+1. DDL  - Data Definition Language.
+        1.1 CREATE - crate new database object.
+        1.2 ALTER - modify existing database object.
+        1.3 DROP - deleting existing database object.
+        1.4 TRUCATE - remove all raws from table.
+2. DML - Data Maniplation Language.
+        1.1 INSERT - create new raw in tables.
+        1.2 UPDATE - modify data in tables.
+        1.3 DELETE - delete data from tables.
+        1.4 SELECT - retrive data from tables.
+3. DCL - Data Control Language.
+        3.1 GRANT - provide access right on table.
+        3.2 REVOKE - withdraw access right on database.
+4.TCL - Transaction Control Language.
+        4.1 COMMIT - save database changes and end transacion.
+        4.2 ROLLBACK - undo changes that are not committed and end  transaction.
+*/
+
+
 #STRING FUNCTIONS
 -- UPPER()
 -- LOWER()
@@ -12,6 +41,7 @@
 -- 3. DML(Data Manipulation langauge)--Insert,Update,Delete,Call
 -- 4. DCL(Data Control Language)--Grant,Revoke
 -- 5. TCL(Transaction Control Language)--Commit,Rollback,Savepoint
+
 
 #Constraints:- 
 - 1. not null
